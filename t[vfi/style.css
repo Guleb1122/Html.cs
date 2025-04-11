@@ -1,0 +1,26 @@
+.text{
+    background-image: url(3584d4b2e475d3a2d7dd4279e54be4e3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+}
+img{
+    width: 550px;
+    height: 550px;
+    margin-bottom: 20px;
+    transition: transform 0.5s; 
+     filter: blur(3px);
+    &:hover{
+      filter: blur(1px);
+        transform: scale(1.1);
+    }
+    background-image: url(3584d4b2e475d3a2d7dd4279e54be4e3.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
